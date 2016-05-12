@@ -1,0 +1,24 @@
+<project>
+	<!-- a versão do POM é sempre 4.0.0 para o Maven 2.x e 3.x -->
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- identificação do projeto. um grupo de informações que identifica seu projeto como um projeto único -->
+	<groupId>com.mycompany.app</groupId>
+	<artifactId>my-app</artifactId>
+	<version>1.0</version>
+
+	<!-- dependência de bibliotecas -->
+	<dependencies>
+
+		<!-- coordenadas de uma dependência -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+
+			<!-- esta dependência é utilizada somente para executar e compilar testes -->
+			<scope>tests</scope>
+		</dependency>
+
+	</dependencies>
+</project>
