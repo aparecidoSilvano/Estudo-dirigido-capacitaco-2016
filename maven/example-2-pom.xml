@@ -39,4 +39,5 @@
 	<pluginRepositories>...</pluginRepositories>
 	<distributionManagement>...</distributionManagement>
 	<profiles>...</profiles>
+	
 </project>
