@@ -1,0 +1,52 @@
+<html ng-app>
+<head>
+    <meta charset="utf-8">
+    <title>Mini projeto estudo dirigido Bower</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Gaste tempo com o que importa! Deixe o Bower cuidar do resto!<h2>
+            <hr>
+            <h3>Adicione o bootstrap, angular e qualquer outro framework front-end ao seu projeto com apenas um comando!</h3>
+            <label>Do angularJs, qual o seu nome?</label>
+            <input type="text" ng-model="yourName" placeholder="seu nome">
+            <hr>
+            <h1>Hello {{yourName}}!</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <h3><a href="http://bower.io/" target="_blank">Bower</a></h3>
+                <p><strong>A package manager for the web.</strong></p>
+                <img src="https://d13yacurqjgara.cloudfront.net/users/299/screenshots/1020507/screen_shot_2013-04-08_at_3.55.16_pm.png"
+                     class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+                <p><i>"Web sites are made of lots of things — frameworks, libraries, assets,
+                    and utilities. Bower manages all these things for you."</i></p>
+            </div>
+            <div class="col-sm-4">
+                <h3><a href="https://angularjs.org/" target="_blank">Bootstrap</a></h3>
+                <p><strong>Designed for everyone, everywhere.</strong></p>
+                <img src="https://jptacek.com/2014/02/angularJS-templates/angularLogo.png" class="img-thumbnail"
+                     alt="Cinque Terre" width="304" height="236">                    
+                <p>Bootstrap makes front-end web development faster and easier. It's made
+                    for folks of all skill levels, devices of all shapes, and projects of all sizes.</p>
+            </div>
+            <div class="col-sm-4">
+                <h3><a href="http://getbootstrap.com/" target="_blank">AngularJS</a></h3>        
+                <p><strong>HTML enhanced for web apps!</strong></p>
+                <img src="http://pepa.holla.cz/wp-content/uploads/2015/10/logo_bootstrap.jpg" class="img-thumbnail"
+                     alt="Cinque Terre" width="304" height="236">
+                <p>HTML is great for declaring static documents, 
+                    but it falters when we try to use it for declaring dynamic views in web-applications. 
+                    AngularJS lets you extend HTML vocabulary for your application. 
+                    The resulting environment is extraordinarily expressive, readable, and quick to develop.</p>
+            </div>
+        </div>            
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "mini-projeto-estudo-dirigido-bower",
+  "authors": [
+    "aparecido silvano <silvanoalbuquerque@gmail.com>"
+  ],
+  "description": "Projeto para demonstrar o uso do Bower para facilitar na hora de crira um projeto web usando angular e Bootstrap.",
+  "main": "",
+  "keywords": [
+    "capacitação",
+    "estudo",
+    "dirigido",
+    "ufcg",
+    "embedded",
+    "2016"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6"
+  }
+}
