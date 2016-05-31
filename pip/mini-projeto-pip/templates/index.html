@@ -1,0 +1,14 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="page-header" id="div-tasks">
+	<h1>Suas atividades cadastradas</h1>
+	<hr />
+	<ul class="list-group" id="tasks">
+		{% for noticia in noticias %}
+		<li class="list-group-item">
+			<a href="{{url_for('noticia', noticia_id=noticia.id)}}">{{noticia.titulo}}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
+{% endblock %}

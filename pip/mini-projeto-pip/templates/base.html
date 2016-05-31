@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	{% block stylesheet %}
+	<link rel="stylesheet" type="text/css" href="/assets/components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/assets/main.css"> {% endblock %}
+
+	<script src="/assets/components/jquery/dist/jquery.min.js"></script>
+	<script src="/assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{% block title %} {{title or "Noticias"}} {% endblock %}</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!--<a class="navbar-brand" href="#">Brand</a>-->
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="{{url_for('index')}}">TODO List <span class="sr-only">(current)</span></a></li>
+					<li><a href="{{url_for('cadastro')}}">Cadastrar</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+
+	{% block content %} {% endblock %}
+</body>
+
+</html>

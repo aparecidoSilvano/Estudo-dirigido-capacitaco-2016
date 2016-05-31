@@ -1,0 +1,17 @@
+{% extends "base.html" %} {% block content %}
+<div class="page-header" id="div-tasks">
+	<h1>Cadastre uma tarefa</h1>
+	<hr />
+	<form role="form" method="post" action="{{ url_for('cadastro') }}" enctype="multipart/form-data">
+		<div class="form-group">
+			<label>Nome da tarefa:</label>
+			<input class="form-control" type="text" name="titulo" id="titulo">
+		</div>
+		<div class="form-group">
+			<label for="texto">Descrição:</label>
+			<textarea class="form-control" name="texto" rows="3" id="texto"></textarea>
+		</div>
+		<button type="submit" class="btn btn-default">Criar</button>
+	</form>
+</div>
+{% endblock %}

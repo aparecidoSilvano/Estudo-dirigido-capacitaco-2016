@@ -1,0 +1,30 @@
+{
+  "name": "testando-flask",
+  "authors": [
+    "Aparecido Silvano"
+  ],
+  "description": "projetinho para avaliar o uso do flask como framework python para desenvolvimento web.",
+  "main": "news_app.py",
+  "keywords": [
+    "capacitação",
+    "sony",
+    "2016",
+    "python",
+    "pip",
+    "flask",
+    "bower"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

@@ -1,0 +1,11 @@
+#div-tasks {
+	margin-left: 25px;
+	width: 500px;
+	height: auto;
+	border-bottom: 2px solid #841818;
+}
+
+#tasks {
+	width: 500px;
+	height: auto;
+}
