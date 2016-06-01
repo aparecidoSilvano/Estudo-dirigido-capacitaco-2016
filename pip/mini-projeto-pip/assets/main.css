@@ -1,7 +1,11 @@
 #div-tasks {
-	margin-left: 25px;
 	width: 500px;
-	height: auto;
+	height: auto;;
+	margin-left: -250px;
+	margin-top: -250px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
 	border-bottom: 2px solid #841818;
 }
 
