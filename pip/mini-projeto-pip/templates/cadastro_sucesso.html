@@ -1,8 +1,8 @@
-{% extends "base.html" %} {% block title %} Notícia {{id_nova_noticia}} inserida com sucesso {% endblock %} {% block content %}
+{% extends "base.html" %} {% block title %} Atividade {{id_nova_atividade}} inserida com sucesso {% endblock %} {% block content %}
 <div class="page-header" id="div-tasks">
 	<h1>Tarefa inserida com sucesso!</h1>
 	<hr />
-	<a href="{{url_for('noticia', noticia_id=id_nova_noticia)}}"> Ver Tarefa </a>
+	<a href="{{url_for('atividade', noticia_id=id_nova_atividade)}}"> Ver Tarefa </a>
 	<br />
 	<a href="{{url_for('cadastro')}}"> Adicionar nova tarefa </a>
 </div>
